@@ -4,6 +4,7 @@ body{
     display:flex;
     flex-direction: column;
     margin:0;
+
 }
 
 /* Header and footer */
@@ -203,14 +204,19 @@ a, .heroText, .cta{
     padding: 8px 20px 8px 20px;
     border: 2px solid white;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
 
 
 /* fourth cont */
 .fourthContainer{
+    align-self: center;
+    justify-content: center;
+    gap: 100px;
     display: flex;
-    flex: 1;
+    height: 40px;
+    width: 550px;
     justify-content: space-between;
     background-color: #3882f6;
     padding: 25px 50px 25px 50px;
@@ -218,15 +224,25 @@ a, .heroText, .cta{
     border-radius: 10px;
 }
 
+.ctaCopy{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+
 .cta{
     font-weight: bolder;
     font-size: larger;
 }
+
 /* footer */
 .footer{
 justify-content: center;
 align-content: center;
 }
+
+
 
 .copyright{
     color: lightgray;
